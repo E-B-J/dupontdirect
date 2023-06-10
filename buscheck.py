@@ -38,7 +38,7 @@ root.geometry('1709x1135')
 root.title('Dictionary Display')
 
 # Set up background image
-bg_image = tk.PhotoImage(file='C:/Users/ebjam/bg2.png')
+bg_image = tk.PhotoImage(file='./bg2.png')
 bg_label = tk.Label(root, image=bg_image)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
 
